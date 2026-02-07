@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+PyTorch/data/
+PyTorch/dataset*
+*.csv
+*.zip
+*.tar.gz
+*.jpg
+*.png
+
+# Logs and models
+PyTorch/logs/
+PyTorch/nn_logs/
+events.out.*
+*.hdf5
+*.pickle
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
